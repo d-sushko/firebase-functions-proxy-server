@@ -9,7 +9,7 @@ const selectHost = (req) => {
   return `https://${req.params.region}-${req.params.projectId}.cloudfunctions.net`;
 };
 
-app.use(audit({logger: logger}}));
+app.use(audit({logger: logger}));
 
 app.use(
   '/functions/:region/:projectId',
