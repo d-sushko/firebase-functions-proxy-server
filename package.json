@@ -12,6 +12,8 @@
   "dependencies": {
     "express": "^4.17.3",
     "express-http-proxy": "^1.6.3",
-    "pm2": "^5.2.0"
+    "pm2": "^5.2.0",
+    "bunyan": "^1.8.15",
+    "express-requests-logger": "^3.0.4"
   }
 }
